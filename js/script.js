@@ -1,0 +1,11 @@
+$(function(){
+    $("#modal").hide();
+$(function(){
+    $("#chatbot").click(function(){
+        $("#modal").fadeIn();    
+    });
+});
+$("#popup_close").click(function(){
+        $("#modal").fadeOut();    
+    });
+ });
