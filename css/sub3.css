@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+/* webfont */
+/* 웹폰트없으면 지우세요!!! */
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+em,
+img,
+small,
+strong,
+b,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tr,
+th,
+td,
+article,
+aside,
+footer,
+header,
+nav,
+section,
+summary,
+video,
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    /* Prevent font scaling in landscape */
+
+    -webkit-text-size-adjust: none;
+    /*Chrome, Safari, newer versions of Opera*/
+
+    -moz-text-size-adjust: none;
+    /*Firefox*/
+
+    -ms-text-size-adjust: none;
+    /*Ie*/
+
+    -o-text-size-adjust: none;
+    /*old versions of Opera*/
+}
+
+body {
+    font-family: "Pretendard Variable", Pretendard, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #3e3e3e;
+    font-weight: 400;
+    /* height: 100vh; */
+}
+
+#wrap {
+    min-width: 1360px;
+    overflow: hidden;
+}
+#step1{
+
+    background: url(../images/sub/images/substep1/bg.jpg)no-repeat center;
+        cursor: url(../images/Products_LimitedEdition/Asset\ 2.svg)0 0, auto;
+}
+#header{
+    height: 100px;
+    background-color: #B6C5C3;
+}
+.logo{
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+#container{
+    width: 1320px;
+    margin: 0 auto;
+       text-align: center;
+       position: relative;
+       height: 700px;
+}
+.title{
+    font-size: 36px;
+    color: #9BD4B9;
+    font-weight: bold;
+ font-family: "Cormorant Garamond", serif;
+padding: 50px 0 10px;
+}
+.text1{
+    font-size: 500;
+    margin-bottom: 20px;
+}
+.text2{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+.choice{
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+.choice img{
+    display: block;
+    width: 100%;
+}
+.cover_wrap{
+    position: relative;
+    cursor: pointer;
+}
+.cover{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 500px 500px 0 0;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    opacity: 0;
+    /*A key frame*/
+    transition: opacity 0.5s;
+}
+.cover:hover{
+    opacity: 1;
+     /*B key frame*/
+}
+
+.choice li .en{
+    margin-top: 10px;
+    color: #9BD4B9;
+    font-size: 16px;
+    line-height: 24px;
+     font-weight: 500;
+}
+.choice li .korean{
+    font-size: 18px;
+    line-height: 27px;
+    font-size: 500;
+}
+.choice li .korean2{
+   font-size: 16px;
+    line-height: 24px;
+    font-size: 500;
+}
+.btn_wrap{
+  padding: 68px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.img_wrap img{
+    display: block;
+    width: 100%;
+}
+.exitimg img{
+ display: block;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+       width: 117px;
+    height: 32px;
+}
+.btntext{
+    font-size: 24px;
+    font-weight: 600;
+     font-family: "Cormorant Garamond", serif;
+}
+.page{
+    font-size: 20px;
+    line-height: 30px;
+        font-weight: 600;
+}
+.exitbtn{
+    position: absolute;
+    bottom: 0px;
+    left:1360px ;
+    z-index: 99;
+    width: 100%;
+    margin-bottom: 11px;
+}
+#footer{
+    height: 100px;
+    background-color: #B6C5C3;
+}

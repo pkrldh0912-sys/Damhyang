@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+/* webfont */
+/* 웹폰트없으면 지우세요!!! */
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+em,
+img,
+small,
+strong,
+b,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tr,
+th,
+td,
+article,
+aside,
+footer,
+header,
+nav,
+section,
+summary,
+video,
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    /* Prevent font scaling in landscape */
+
+    -webkit-text-size-adjust: none;
+    /*Chrome, Safari, newer versions of Opera*/
+
+    -moz-text-size-adjust: none;
+    /*Firefox*/
+
+    -ms-text-size-adjust: none;
+    /*Ie*/
+
+    -o-text-size-adjust: none;
+    /*old versions of Opera*/
+}
+
+body {
+    font-family: "Pretendard Variable", Pretendard, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #3e3e3e;
+    font-weight: 400;
+    /* height: 100vh; */
+}
+
+#wrap {
+    min-width: 1360px;
+    overflow: hidden;
+}
+#step1{
+
+    background: url(../images/sub/images/substep1/bg.jpg)no-repeat center;
+        cursor: url(../images/Products_LimitedEdition/Asset\ 2.svg)0 0, auto;
+}
+#header{
+    height: 100px;
+    background-color: #B6C5C3;
+}
+.logo{
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+#container{
+    width: 1320px;
+    margin: 0 auto;
+       text-align: center;
+       position: relative;
+       height: 700px;
+       display: flex;
+       justify-content: center;
+       gap: 90px;
+          padding-top: 82px;
+          box-sizing: border-box;
+}
+.productimg, .producttext{
+    width: 500px;
+    height: 500px;
+}
+.productimg img{
+    display: block;
+}
+.producttext{
+    text-align: left;
+}
+.text_wrap{
+    display: flex;
+}
+.title, .result span{
+     font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.result{
+ font-size: 50px;
+    line-height: 30px;
+    font-weight: bold;
+        font-family: "Cormorant Garamond", serif;
+        padding: 16px 0 64px;
+}
+.producttext strong{
+  color: rgb(155, 212, 185);
+     font-style: italic;
+}
+.p_wrap{
+display: flex;
+gap: 10px;
+}
+.end{
+ padding: 16px 0 64px;
+}
+.text_wrap{
+    padding:32px 0 64px;
+}
+.left{
+   color: rgb(155, 212, 185); 
+     font-size: 18px;
+    line-height: 36px;
+    font-weight: 500;  
+    margin-right:58px ;
+}
+.right ul li{
+   font-size: 18px;
+    line-height: 36px;
+    font-weight: 400;    
+}
+
+.right ul li:nth-child(1){
+   font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+        font-family: "Cormorant Garamond", serif;  
+}
+.btn_wrap{
+    margin-left: 202px;
+}
+
+.btn1{
+    width: 116px;
+    height: 30px;
+    border: 2px solid #6E8D7F;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 8px;
+}
+.btn1 a {
+    color: #6E8D7F;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    padding: 2px 15px;
+    display: inline-block;
+}
+
+.btn2{
+    width: 152px;
+    height: 30px;
+    border: 2px solid #6E8D7F;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.btn2 a {
+    color: #6E8D7F;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    padding: 2px 15px;
+    display: inline-block;
+}
+.exitbtn{
+    position: absolute;
+    bottom: 0px;
+    left:800px ;
+    z-index: 99;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#footer{
+    height: 100px;
+    background-color: #B6C5C3;
+}
